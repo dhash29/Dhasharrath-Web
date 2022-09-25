@@ -1,0 +1,103 @@
+.grid{
+    background-color:rgb(181, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.grid2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.jimg{
+    border: 10px solid #5499C7;
+    padding: 10px;
+}
+
+.jimg img{
+    border-radius: 20px;
+    border: 10px solid #2ECC71 
+}
+
+
+#Name{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+#Name2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: #5499C7;
+    box-shadow: 10px 10px 30px black;
+}
+
+#BackButtons{
+    margin: 10px;
+}
+
+#BackButtons a{
+    margin: 5px;
+    font-size: 25px;
+}
+
+
+
+.item{
+    background-color: rgb(240, 240, 163);
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+
+p{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+h1{
+    font-family:'Trebuchet MS';
+}
+
+body{
+    text-align: center;
+}
+
+.item img{
+    width: 500px;
+    height: 400px;
+}
+
+a:link{
+    color:red ;
+}
+
+a:visited{
+    color: green;
+}
+
+.item:hover img{
+    width: 600px;
+    height: 500px;
+}
+
+.item:hover p{
+    opacity: 1;
+    background-color: white;
+    border-radius: 20px;
+}
+
